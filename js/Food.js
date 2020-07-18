@@ -19,7 +19,7 @@ getLF(){
 updateLF(){
     var foodSref = db.ref('/') 
     foodSref.update({
-        'LastFedTime': 10
+        'LastFedTime': hour + period
 
     })
 }
